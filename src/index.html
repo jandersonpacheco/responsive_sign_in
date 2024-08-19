@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header class="header-container">
+        <div class="header-content">
+            <h1 class="title">Cadastre-se</h1>
+            <label class="subtitle">Insira suas informações para criar sua conta</label>
+        </div>
+    </header>
+    <main class="main-container">
+        <div class="form-container">
+            <form class="create-account">
+                <label for="fullname" class="fullname">Nome</label>
+                <input type ="text" class="fullname-input" placeholder="Insira seu nome"></input>
+                <label for="contact" class="contact">E-mail ou celular</label>
+                <input type ="text" class="contact-input" placeholder="Insira seu e-mail ou celular"></input>
+                <div class="password-section">
+                    <div class="password-container">
+                        <label for="password" class="password">Senha</label>
+                        <input type ="password" class="password-input" placeholder="Insira uma senha"></input>
+                    </div>
+                    <div class="password-confirmation-container">
+                        <label for="fullname" class="password-confirmation">Confirme sua senha</label>
+                        <input type ="password" class="password-confirmation-input" placeholder="Confirme sua senha"></input>
+                        </div>
+                </div>
+                <div class="button-section">
+                    <button type="submit" class="sign-up-btn">Criar conta</button>
+                    <div class="google-btn">
+                        <button type="submit" class="sign-up-google"><img class="google-img" src="../media/google-img.png">Criar conta com Google</button>
+                    </div>
+                    <div class="facebook-btn">
+                        <button type="submit" class="sign-up-facebook"><img class="facebook-img" src="../media/facebook-img.png">Criar conta com Facebook</button>
+                    </div>
+                </div>
+            </form>
+                <p class="sign-in-content">Já possui uma conta?<a class="sign-in">Entre</a></p>
+        </div>
+    </main>
+</body>
+</html>
